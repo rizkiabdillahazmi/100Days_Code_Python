@@ -31,7 +31,10 @@ choice = [rock, paper, scissors]
 
 user_choice = int(
     input("What Do You choose ? Type 0 for Rock, 1 for Paper or 2 for Scissors\n"))
-print(choice[user_choice])
+
+if (user_choice >= 0 and user_choice <= 2):
+    print(choice[user_choice])
+
 print("Computer choose : ")
 computer_choice = random.randint(0, 2)
 print(choice[computer_choice])
