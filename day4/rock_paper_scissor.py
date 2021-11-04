@@ -27,7 +27,6 @@ scissors = '''
 ---.__(___)
 '''
 
-# Write your code below this line 👇
 choice = [rock, paper, scissors]
 
 user_choice = int(
