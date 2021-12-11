@@ -4,13 +4,14 @@ from art import logo, vs
 from os import system
 
 
-def clear(): 
+def clear():
     return system('cls')
 
 
 def get_random_account():
     """Get data from random account"""
     return random.choice(data)
+
 
 def format_data(account):
     """Format account into printable format: name, description and country"""
@@ -20,14 +21,16 @@ def format_data(account):
     # print(f'{name}: {account["follower_count"]}')
     return f"{name}, a {description}, from {country}"
 
+
 def check_answer(guess, a_followers, b_followers):
     """Checks followers against user's guess 
     and returns True if they got it right.
-    Or False if they got it wrong.""" 
+    Or False if they got it wrong."""
     if a_followers > b_followers:
         return guess == "a"
     else:
         return guess == "b"
+
 
 def game():
     print(logo)
@@ -46,7 +49,7 @@ def game():
         print(f"Compare A: {format_data(account_a)}.")
         print(vs)
         print(f"Against B: {format_data(account_b)}.")
-    
+
         guess = input("Who has more followers? Type 'A' or 'B': ").lower()
         a_follower_count = account_a["follower_count"]
         b_follower_count = account_b["follower_count"]
@@ -61,6 +64,7 @@ def game():
             game_should_continue = False
             print(f"Sorry, that's wrong. Final score: {score}")
 
+
 game()
 
 '''
@@ -72,7 +76,6 @@ Suppose you just started the game and you are comparing the followers of A - Ins
 '''
 
 
-
 # Generate a random account from the game data.
 
 # Format account data into printable format.
@@ -80,8 +83,8 @@ Suppose you just started the game and you are comparing the followers of A - Ins
 # Ask user for a guess.
 
 # Check if user is correct.
-## Get follower count.
-## If Statement
+# Get follower count.
+# If Statement
 
 # Feedback.
 
