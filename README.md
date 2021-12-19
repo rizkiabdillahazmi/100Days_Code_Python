@@ -2,23 +2,23 @@
 
 ## Materi:
 
-### Basic
-1. Print Statement dan Input
-2. Input Number dan Operasi Matematika dengan Project
-3. IF Statement dengan Project
-4. Basic Random dan List dengan Project
-5. For Loop dengan Project
+### Beginner
+1. Working with Variables
+2. Understanding Data Types and Manipulate Strings
+3. Control Flow and Logical Operators
+4. Randomisation and Python Lists
+5. Python Loops with Project
 6. Basic Function
 7. Hangman Project
-8. Caesar Chiper Project
-9. Dictionary dengan Project
-10. Calculator Project
-11. Blackjack Project
-12. Number Guessing Project
+8. Function Parameters with Caesar Chiper Project
+9. Dictionaries, Nesting and The Secret Auction
+10. Functions with Outputs and Calculator Project
+11. The Blackjack Capstone Project
+12. Scope and Number Guessing Game
 13. Debug Exercises
-14. Follower Guess Game
-15. Coffee Machine Project
+14. Higher Lower Game Project
 
 ### Intermediate
-16. OOP
+15. Coffee Machine Project
+16. Object Oriented Programming (OOP)
 17. 
