@@ -20,5 +20,5 @@
 
 ### Intermediate
 15. Coffee Machine Project
-16. Object Oriented Programming (OOP)
-17. 
+16. Object Oriented Programming (OOP) with Coffee Machine Project
+17. The Quiz Project & The Benefits of OOP
